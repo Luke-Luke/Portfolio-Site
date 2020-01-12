@@ -1,0 +1,104 @@
+
+ * {
+    margin: 0;
+    padding: 0; 
+  } 
+
+  iframe{ 
+      border-width: 0px;
+  }
+
+
+
+
+h1{
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    color:black;
+    font-family: 'Lato', sans-serif;
+}
+p{
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+
+    
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+
+.box{
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.one{
+
+}
+
+.one h2{
+    padding: 15px;
+
+}
+
+.three{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.social{
+    flex: 1 0 15px;
+}
+
+.name{
+    padding: 5px;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-twitter {
+    background: none;
+    color: black;
+  }
+
+  .fa-linkedin {
+    background: none;
+    color: black;
+  }
+
+  .fa-github {
+    background: none;
+    color: black;
+  }
+
+
+  .burger{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0; 
+    display: flex;
+    margin-left: 10px;
+  }
+
+
